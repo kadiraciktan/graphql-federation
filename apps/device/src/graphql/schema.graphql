@@ -1,0 +1,17 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type DeviceObjectType {
+  id: ID!
+  name: String!
+}
+
+type Query {
+  getDevices: DeviceObjectType!
+}
+
+type Subscription {
+  testSubscription: String!
+  testSubscriptionWithCustomName: String!
+}
